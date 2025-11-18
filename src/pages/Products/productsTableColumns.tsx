@@ -29,7 +29,12 @@ export const columns = ({
     accessorKey: "imageUrl",
     header: "Image",
     cell: ({ row }) => {
-      return <img src={row.getValue("imageUrl")!.toString()}></img>;
+      return (
+        <img
+          className="max-w-20"
+          src={row.getValue("imageUrl")!.toString()}
+        ></img>
+      );
     },
   },
   {

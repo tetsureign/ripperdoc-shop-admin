@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
 
-import { ProductDTO, productsService } from "@/services/productsService";
+import { productsService } from "@/services/productsService";
 import { Product } from "@/types/product";
 import { Category } from "@/types/category";
 import { zodResolver } from "@hookform/resolvers/zod";

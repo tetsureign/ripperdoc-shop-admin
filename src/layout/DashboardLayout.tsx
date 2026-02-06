@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Navigate, Outlet } from "react-router";
 
 import { AppSidebar } from "@/components/app-sidebar";
